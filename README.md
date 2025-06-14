@@ -1,4 +1,4 @@
-# VPN免费 - 6月13日22.7M/S|免费Shadowrocket/Clash/V2ray/SSR节点推荐，Clash机场购买推荐  更新时间 2025-06-13 09:46:55
+# VPN免费 - 6月14日18.1M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，Clash机场购买推荐  更新时间 2025-06-14 09:11:33
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnmianfei.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpnmianfei.github.io/uploads/2025/06/0-20250613.yaml
-- https://vpnmianfei.github.io/uploads/2025/06/1-20250613.yaml
-- https://vpnmianfei.github.io/uploads/2025/06/2-20250613.yaml
-- https://vpnmianfei.github.io/uploads/2025/06/3-20250613.yaml
-- https://vpnmianfei.github.io/uploads/2025/06/4-20250613.yaml
+- https://vpnmianfei.github.io/uploads/2025/06/0-20250614.yaml
+- https://vpnmianfei.github.io/uploads/2025/06/1-20250614.yaml
+- https://vpnmianfei.github.io/uploads/2025/06/2-20250614.yaml
+- https://vpnmianfei.github.io/uploads/2025/06/3-20250614.yaml
+- https://vpnmianfei.github.io/uploads/2025/06/4-20250614.yaml
 
 ### V2ray订阅链接
 
-- https://vpnmianfei.github.io/uploads/2025/06/0-20250613.txt
-- https://vpnmianfei.github.io/uploads/2025/06/1-20250613.txt
-- https://vpnmianfei.github.io/uploads/2025/06/2-20250613.txt
-- https://vpnmianfei.github.io/uploads/2025/06/3-20250613.txt
-- https://vpnmianfei.github.io/uploads/2025/06/4-20250613.txt
+- https://vpnmianfei.github.io/uploads/2025/06/0-20250614.txt
+- https://vpnmianfei.github.io/uploads/2025/06/1-20250614.txt
+- https://vpnmianfei.github.io/uploads/2025/06/2-20250614.txt
+- https://vpnmianfei.github.io/uploads/2025/06/3-20250614.txt
+- https://vpnmianfei.github.io/uploads/2025/06/4-20250614.txt
 
 ### Sing-box订阅链接
 
-- https://vpnmianfei.github.io/uploads/2025/06/20250613.json
+- https://vpnmianfei.github.io/uploads/2025/06/20250614.json
 
 ## 更多clash节点订阅 ：
 
