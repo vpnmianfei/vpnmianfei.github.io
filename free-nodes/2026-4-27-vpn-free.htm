@@ -235,24 +235,9 @@ Clash支持Windows、macOS、Linux、iOS、Android等多平台。用户需先根
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 支持哪几种代理协议？</h5></div>
-    <div class="panel-body">
-        Shadowrocket 支持多种协议，包括 Shadowsocks、Vmess、VLess、Trojan、HTTP、SOCKS5 等。它还可解析部分 QuantumultX 与 Clash 的订阅格式，适合 iOS 用户进行全协议代理管理与切换。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何按 IP 段实现智能分流？</h5></div>
-    <div class="panel-body">
-        Sing-box 支持根据 IP 段匹配流量，将国内流量直连、国外流量走代理。结合策略组和规则文件，实现精细化流量管理，保证访问速度和稳定性，同时提高节点使用效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 如何结合策略组实现自动节点切换？</h5></div>
     <div class="panel-body">
         PassWall2 会定期测试节点延迟和丢包率，结合策略组自动切换到最优节点。无需手动干预即可保证网页、视频和游戏流量高速稳定访问，优化整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan-Go 的端口不可达怎么办？</h5></div>
-    <div class="panel-body">
-        检查服务器防火墙是否开放对应端口，同时确认客户端和服务器端端口一致。还可以尝试更换节点或端口，确保 TLS 证书有效以保证连接成功。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 如何设置用户带宽限制？</h5></div>
@@ -260,14 +245,14 @@ Clash支持Windows、macOS、Linux、iOS、Android等多平台。用户需先根
         管理员可为每个用户设置独立带宽和流量配额，超出时可自动降速或阻止访问。这样可确保服务器资源合理分配，避免单用户占用过多带宽，提高整体网络效率和公平性。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 手动节点切换有哪些优点？</h5></div>
+    <div class="panel-body">
+        手动切换节点可以根据延迟和用途选择最佳节点，适合在节点不稳定或特殊需求下使用。虽然不支持自动订阅更新，但足够满足轻量用户对节点管理和分流的需求。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 如何管理不同用户的带宽？</h5></div>
     <div class="panel-body">
         管理员可以为每个用户设置独立带宽限制和流量配额。超出配额时可自动阻断或降速，确保服务器资源合理分配，避免单用户占用过多带宽，保障整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 如何通过命令行管理配置？</h5></div>
-    <div class="panel-body">
-        Clash 内置命令行接口，可用于启动、停止、切换配置或查看日志。通过命令行运行 `clash -f config.yaml` 可加载指定配置文件，适合服务器或无人值守场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Nekoray 的节点排序依据是什么？</h5></div>
@@ -275,14 +260,29 @@ Clash支持Windows、macOS、Linux、iOS、Android等多平台。用户需先根
         Nekoray 默认按节点延迟排序。用户可以自定义排序规则，如按订阅来源、名称或连接成功率排列，从而快速找到性能最佳或最常用的节点。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 手动节点切换有哪些优点？</h5></div>
+    <div class="panel-heading"><h5>Clash 如何通过命令行管理配置？</h5></div>
     <div class="panel-body">
-        手动切换节点可以根据延迟和用途选择最佳节点，适合在节点不稳定或特殊需求下使用。虽然不支持自动订阅更新，但足够满足轻量用户对节点管理和分流的需求。<hr />    </div>
+        Clash 内置命令行接口，可用于启动、停止、切换配置或查看日志。通过命令行运行 `clash -f config.yaml` 可加载指定配置文件，适合服务器或无人值守场景。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 如何按 IP 段实现智能分流？</h5></div>
+    <div class="panel-body">
+        Sing-box 支持根据 IP 段匹配流量，将国内流量直连、国外流量走代理。结合策略组和规则文件，实现精细化流量管理，保证访问速度和稳定性，同时提高节点使用效率。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Shadowrocket 支持哪几种代理协议？</h5></div>
+    <div class="panel-body">
+        Shadowrocket 支持多种协议，包括 Shadowsocks、Vmess、VLess、Trojan、HTTP、SOCKS5 等。它还可解析部分 QuantumultX 与 Clash 的订阅格式，适合 iOS 用户进行全协议代理管理与切换。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 的多机场订阅如何整合？</h5></div>
     <div class="panel-body">
-        Hiddify Next 提供合并订阅功能，可将多个链接导入同一配置，自动去重并分类节点。用户可设置优先级与标签，方便快速选择不同提供商的线路，提升连接灵活性与冗余度。    </div>
+        Hiddify Next 提供合并订阅功能，可将多个链接导入同一配置，自动去重并分类节点。用户可设置优先级与标签，方便快速选择不同提供商的线路，提升连接灵活性与冗余度。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan-Go 的端口不可达怎么办？</h5></div>
+    <div class="panel-body">
+        检查服务器防火墙是否开放对应端口，同时确认客户端和服务器端端口一致。还可以尝试更换节点或端口，确保 TLS 证书有效以保证连接成功。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -311,16 +311,16 @@ Clash支持Windows、macOS、Linux、iOS、Android等多平台。用户需先根
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-4-12-free-node-subscribe-links.htm" title="VPN免费 - 4月12日23M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，Clash机场购买推荐">VPN免费 - 4月12日23M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-18-free-vpn.htm" title="VPN免费 - 4月18日21M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点节点推荐，Clash机场购买推荐">VPN免费 - 4月18日21M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-12-node-share.htm" title="VPN免费 - 3月12日21.7M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Trojan节点/V2ray节点/Clash节点节点推荐，Clash机场购买推荐">VPN免费 - 3月12日21.7M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Trojan节点/V2ray节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-15-free-node-subscribe.htm" title="VPN免费 - 3月15日20.6M/S|免费Singbox节点/Clash节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点节点推荐，Clash机场购买推荐">VPN免费 - 3月15日20.6M/S|免费Singbox节点/Clash节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-14-vpn-node.htm" title="VPN免费 - 4月14日22.4M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，Clash机场购买推荐">VPN免费 - 4月14日22.4M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，Clash机场购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2026-4-19-node-share-links.htm" title="VPN免费 - 4月19日22.2M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐">VPN免费 - 4月19日22.2M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-29-free-vpn-node.htm" title="VPN免费 - 3月29日22.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点推荐，Clash机场购买推荐">VPN免费 - 3月29日22.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-23-mianfei-vpn.htm" title="VPN免费 - 3月23日20.6M/S|免费V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点/Trojan节点节点推荐，Clash机场购买推荐">VPN免费 - 3月23日20.6M/S|免费V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点/Trojan节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-19-share-vpn.htm" title="VPN免费 - 3月19日20.4M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点节点推荐，Clash机场购买推荐">VPN免费 - 3月19日20.4M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-30-node-share.htm" title="VPN免费 - 3月30日19.3M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点节点推荐，Clash机场购买推荐">VPN免费 - 3月30日19.3M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点节点推荐，Clash机场购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-18-share-vpn.htm" title="VPN免费 - 3月18日19.8M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点/Clash节点/SSR节点节点推荐，Clash机场购买推荐">VPN免费 - 3月18日19.8M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点/Clash节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-29-free-node-subscribe.htm" title="VPN免费 - 4月29日18.6M/S|免费Trojan节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点节点推荐，Clash机场购买推荐">VPN免费 - 4月29日18.6M/S|免费Trojan节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-1-mianfei-vpn.htm" title="VPN免费 - 5月1日18.1M/S|免费SSR节点/Singbox节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点节点推荐，Clash机场购买推荐">VPN免费 - 5月1日18.1M/S|免费SSR节点/Singbox节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-13-share-vpn.htm" title="VPN免费 - 4月13日21.2M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，Clash机场购买推荐">VPN免费 - 4月13日21.2M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-15-vpn-node.htm" title="VPN免费 - 4月15日20.8M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/Trojan节点节点推荐，Clash机场购买推荐">VPN免费 - 4月15日20.8M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/Trojan节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-20-vpn-github.htm" title="VPN免费 - 4月20日18.1M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，Clash机场购买推荐">VPN免费 - 4月20日18.1M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-17-vpn-proxy.htm" title="VPN免费 - 4月17日22.8M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点推荐，Clash机场购买推荐">VPN免费 - 4月17日22.8M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-21-free-node-subscribe-links.htm" title="VPN免费 - 4月21日21.5M/S|免费Trojan节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点/SSR节点节点推荐，Clash机场购买推荐">VPN免费 - 4月21日21.5M/S|免费Trojan节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点/SSR节点节点推荐，Clash机场购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-18-free-vpn.htm" title="VPN免费 - 4月18日21M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点节点推荐，Clash机场购买推荐">VPN免费 - 4月18日21M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点节点推荐，Clash机场购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -332,13 +332,10 @@ Clash支持Windows、macOS、Linux、iOS、Android等多平台。用户需先根
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">2</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
+                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
-            </li>
-                        <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
+                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                     </ul>
     </div>
